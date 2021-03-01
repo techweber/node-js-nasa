@@ -3,7 +3,7 @@ const fetch = require('node-fetch');
 const app = express();
 
 const serverPort = 3000;
-let api_key = 'ZKebWUzGJ2rgDYZTjz2iHfW5brcoJDJqqa7pjhld';
+let api_key = '<your-nasa-api-key>';
 
 let header = "<a href='/earth'>Earth</a><br/>";
 	header += "<a href='/mars'>Mars</a><br/>";
